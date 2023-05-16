@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  font-family: 'Robot', sans-serif;
+}
+
+body {
+  height:100vh;
+  background: linear-gradient(to right bottom, #d23bed, #2291e6);
+}
+
+.welcome {
+  background-color:white;
+  font-size:20px;
+  width:400px;
+  display:flex;
+  margin:auto;
+  margin-top: 200px;
+  flex-direction:column;
+  column-gap: 10px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0.8, 0.8, 0.8, .2);
+  padding:10px 10px;
+}
+
+/* button {
+  
+} */
+
+a {
+  color:white;
+  text-decoration: None;
+  font-weight:400;
+  display:flex;
+  width:80%;
+  height:40px;
+  border-radius: 20px;
+  background-color: #00c8aa;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  margin-bottom: 20px;
+  }
+
+  a:hover,
+  a:active {
+    transform: scale(110%);
+    transition: transform .2s ease-out,background-color .2s ease-out;
+    box-shadow: 0 0 0 5px rgba(0,200,170,0.5);
+  }
+
+
+
+  .user-login a {
+    color:white;
+    text-decoration: None;
+    font-weight:400;
+    display:flex;
+    width:80%;
+    height:40px;
+    border-radius: 20px;
+    background-color: #00c8aa;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin-bottom: 20px;
+    }
+  
+    .user-login a:hover,
+    .user-login a:active {
+      transform: scale(110%);
+      transition: transform .2s ease-out,background-color .2s ease-out;
+      box-shadow: 0 0 0 5px rgba(0,200,170,0.5);
+    }
